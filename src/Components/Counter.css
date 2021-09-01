@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Avenir";
+  src: url(../Fonts/Avenir/Avenir-Black.woff) format("woff");
+  font-weight: 900;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.counter_object {
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 50vh;
+  padding-bottom: 50vh;
+}
+
+#plus,
+#minus,
+#count {
+  border: none;
+  background: none;
+  color: #b24242;
+  font-family: "Avenir";
+  width: 90px;
+  height: 84px;
+  font-size: 21px;
+}
+
+#plus {
+  background: #b24242;
+  color: #fff;
+  padding-left: 23px;
+  padding-right: 23px;
+  padding-top: 14px;
+  padding-bottom: 13px;
+  border-radius: 0 8px 8px 0;
+  border: 1px solid #b24242;
+}
+
+#minus {
+  padding-left: 26px;
+  padding-right: 27px;
+  padding-top: 14px;
+  padding-bottom: 13px;
+  border-radius: 8px 0 0 8px;
+  margin-left: -1px;
+  border: 1px solid #b24242;
+}
+
+#count {
+  font-family: "Avenir";
+  padding-left: 18px;
+  padding-right: 17px;
+  padding-top: 14px;
+  padding-bottom: 13px;
+  font-size: 21px;
+  border-radius: 0%;
+  border-top: 1px solid #b24242;
+  border-bottom: 1px solid #b24242;
+  background-color: #fbe8e8;
+  text-align: center;
+  outline: none;
+}
+
+.wrapper > input {
+  border-top: 2px solid #b24242;
+  border-bottom: 2px solid #b24242;
+  padding-left: 18px;
+  padding-right: 17px;
+
+  background-color: #fbe8e8;
+  color: #b24242;
+  font-family: "Avenir";
+}
